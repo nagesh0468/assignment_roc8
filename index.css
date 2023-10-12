@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 15px 20px;
+    margin: 40px ;
+    background-color: aliceblue;
+    position: relative;
+}
+.navBar{
+     display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+ ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .logo{
+    font-size: 30px;
+    font-weight: 800;
+    color :rgb(12, 10, 148)
+ }
+ .homeNave{
+    position: absolute;
+    left: 35%;
+ }
+ ul li{
+    padding:15px ;
+    font-size: 20px;
+    font-weight: 400;
+    color: grey;
+ }
+ 
+ .style {
+    background: rgb(36, 199, 199);
+    padding: 10px 30px;
+    margin: 8px 30px ;
+    border-radius: 25px;
+    color: #fff;
+    border: none;
+  }
+  .innerContainer{
+    margin: 8% 30%;
+    padding: 20px;
+    text-align: center;
+    width: 750px;
+  }
+  .title{
+    font-size: 80px;
+    font-weight: 700;
+    color: rgb(12, 10, 148) ;
+  }
+  .paraText{
+    color: grey;
+    font-size: 28px;
+    font-weight: 400;
+    padding: 40px;
+  }
+  .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .btn>span{
+   color: rgb(36, 199, 199);
+   font-size: 20px;
+   font-weight: 100;
+  }
+  .btn>button{
+    background-color: rgb(36, 199, 199);
+    margin: 30px;
+    padding: 15px 25px;
+    border-radius: 40px; 
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300; 
+    border: none;
+}
+.left{
+   position: absolute;
+   right: 5px;
+}
+.blue{
+   background-color: rgb(67, 67, 240);
+   height: 100vh;
+   padding: 10px;
+}
+.blue .logo, .blue li, .blue .paraText, .blue .title {
+   color: #fff;
+} 
+.blue .style{
+   background-color: rgba(12, 2, 24, 0.267);
+}
+.btn span{
+   color: #fff;
+   padding-top:10px ;
+   font-weight: 50;
+  
+}
+input{
+   padding: 15px 40px;
+   border-radius: 30px;
+   font-size: 25px;
+   font-weight: 500;
+   margin-right: 20px;
+   background-color: rgba(232, 235, 236, 0.1);
+   border: 1px solid #fff;
+}
+.blue button{
+   padding: 15px 40px;
+   font-size: 25px;
+   font-weight: 500;
+   border-radius: 30px;
+   border: none;
+}
+.section3{
+   height: 100vh;
+   padding: 20px;
+   margin: 20px;
+}
+.nav{
+   display: flex;
+   justify-content: space-between;
+}
+.leftNav{
+   position: absolute;
+   left: 18%;
+}
+.select{
+   border: none;
+   font-size: 20px;
+    font-weight: 400;
+    color: grey;
+}
+.hero{
+   width: 100vw;
+   display: flex;
+   align-items: center;
+   padding: 10px 15px;
+}
+.left1{
+   width: 50%;
+  
+}
+.left1 button{
+   padding: 20px 25%;
+}
+.right1{
+   width: 35%;
+}
+.tvContainer img{
+   height: 60%;
+   width: 80%;
+}
+.hero .title{
+   font-size: 60px;
+   font-weight: 500;
+   color: rgb(12, 10, 148) ;
+   padding: 10px;
+}
+.blogs{
+   padding: 20px 40px;
+   text-align: center;
+   margin:20px 15%;
+}
+.blogs h1{
+   font-size: 50px;
+   font-weight: 600;
+   color: rgb(12, 10, 148) ;
+   padding: 10px;
+}
+.blogs button{
+   border: none;
+}
+.coloumpara{
+   width: 300px;
+}
+.birdSection{
+   height: 100vh;
+   background-image: url('https://img.freepik.com/free-photo/bird-with-blue-head-red-head-sits-pink-flower_1340-22892.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   color: #fff;
+}
+.bNavbar{
+   height: 10%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   
+}
+.bNavbar li{
+   color: #fff;
+}
+.bContainer{
+   height: 88%;
+   padding: 15px;
+   margin: 10px 20%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+
+}
+.bTitle{
+   font-size: 50px;
+   margin: 20px 50px;
+}
+.bPara{
+   width: 400px;
+   height: 400px;
+   padding: 20px;
+   color: #000;
+}
+.womanSection{
+   height: 100vh;
+   width: 100%;
+   display: flex;
+}
+.wLeft{
+   width: 60%;
+   height: 100vh;
+}
+.wRight{
+   height: 100vh;
+   width: 40%;
+   background-image: url('https://cdn.create.vista.com/api/media/small/181329992/stock-photo-profile-attractive-african-american-woman-isolated-black');
+   background-repeat:no-repeat ;
+   background-size: 100% 100%;
+   }
+   .wNav{
+      height: 10%;
+      padding: 10px;
+      margin: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+   }
+   .wNav h1{
+      font-size: 30px;
+      font-weight: 600;
+      color: blue;
+   }
+   .wContainer{
+      height: 88vh;
+      width: 650px;
+      padding: 30px 60px;
+      margin: 30px;
+   }
+   .wContainer h1{
+      font-size: 40px;
+      color: blue;
+   }
+   .wpara{
+      width: 350px;
+      padding: 30px;
+      color: grey;
+      font-size: 20px;
+      font-weight: 100;
+   }
+   .wBtn{
+      width: 400px;
+      padding: 30px;
+   }
+   .wBtn button{
+      padding: 15px 30px;
+      border-radius: 25px;
+      /* border: none; */
+   }
